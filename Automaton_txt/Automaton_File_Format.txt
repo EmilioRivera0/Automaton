@@ -1,0 +1,15 @@
+// <AUTOMATON FILE FORMAT----------------------------------------------------------------------------------------------------------->
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+- Automaton.txt Format (works for Deterministic and Nondeterministic automatons):
+(alphabet: each symbol separated by space) ex. a b c
+(Initial state) ex. q1
+(Final state(s): each one separated by space) ex. q3 q2
+(Transition functions with the following format: "<current_state> <current_symbol> -> <next state>", each transition function in a 
+	single line)
+ex.
+q1 a -> q2
+q1 a -> q1
+q2 b -> q3
+q3 c -> q1
+-----------------------------------------------------------------------------------------------------------------------------------*/
